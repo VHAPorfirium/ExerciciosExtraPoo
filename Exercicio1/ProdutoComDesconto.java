@@ -1,3 +1,25 @@
+/*
+### Exercício 1: Produto com Desconto OK/OK
+
+**Descrição:**
+Faça um programa para ler os dados de um produto (nome, preço e desconto). Em seguida, mostrar os dados do produto (nome e preço com desconto). Em seguida, aplicar um novo desconto ao produto com base em uma porcentagem dada e mostrar novamente os dados do produto.
+
+**UML:**
+```
++--------------------+
+|      Produto       |
++--------------------+
+| - nome: String     |
+| - preco: double    |
+| - desconto: double |
++--------------------+
+| + Produto(String, double, double) |
+| + calcularPrecoComDesconto(): double |
+| + aplicarDesconto(double): void |
+| + toString(): String              |
++-----------------------------------+
+```
+ */
 package Exercicio1;
 
 public class ProdutoComDesconto {
